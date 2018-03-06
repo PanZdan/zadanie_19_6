@@ -5,8 +5,7 @@ import { thumbUpComment, thumbDownComment, addComment, removeComment } from './a
 const mapDispatchToProps = dispatch => ({
   thumbUpComment: (id) => dispatch(thumbUpComment(id)),
   thumbDownComment: (id) => dispatch(thumbDownComment(id)),
-  addComment: (text) => dispatch(addComment(text)),
-  removeComment: (id) => dispatch(removeComment(id))
+  removeComment: (id) => dispatch(removeComment(id)),
 });
 
 export default connect(null, mapDispatchToProps)(Comment);
