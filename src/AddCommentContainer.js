@@ -1,5 +1,4 @@
 import { connect } from 'react-redux';
-import Comment from './Comment';
 import { addComment } from './actions';
 import CommentAdd from './CommentAdd';
 
